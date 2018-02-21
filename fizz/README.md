@@ -33,6 +33,7 @@ Columns all have the same syntax. First is the name of the column. Second is the
 * `text`
 * `timestamp`, `time`, `datetime`
 * `integer`
+* `decimal`
 * `bool`
 
 Any other type passed it will be be passed straight through to the underlying database. For example for PostgreSQL you could pass `jsonb`and it will be supported, however, SQLite will yell very loudly at you if you do the same thing!
